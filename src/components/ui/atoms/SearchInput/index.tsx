@@ -1,9 +1,7 @@
 "use client";
 import Button from "@mui/material/Button";
-import { Paper, InputBase, Divider, TextField, Grid } from "@mui/material";
+import { TextField, Grid } from "@mui/material";
 import Autocomplete from "@mui/material/Autocomplete";
-import IconButton from "@mui/material/IconButton";
-import SearchIcon from "@mui/icons-material/Search";
 import React from "react";
 import { PostType } from "app/types";
 

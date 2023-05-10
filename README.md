@@ -1,4 +1,14 @@
-First, run the development server:
+### Install project dependencies:
+
+```bash
+npm i
+# or
+yarn
+# or
+pnpm i
+```
+
+### First, run the development server:
 
 ```bash
 npm run dev

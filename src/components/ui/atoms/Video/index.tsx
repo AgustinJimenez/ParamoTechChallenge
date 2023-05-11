@@ -10,7 +10,7 @@ const Video = ({
   innerRef: LegacyRef<any> | undefined;
 }) => {
   return (
-    <video width="100%" ref={innerRef} autoPlay loop controls>
+    <video role="video" width="100%" ref={innerRef} autoPlay loop controls>
       <source src={src} type={type} />
     </video>
   );
